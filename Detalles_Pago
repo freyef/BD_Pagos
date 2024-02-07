@@ -1,4 +1,5 @@
-	CREATE TABLE Detalles_Pago (
+///el siguiente script contiene informacion que hereda de la tabla pagos
+CREATE TABLE Detalles_Pago (
     ID_Detalle_Pago INT PRIMARY KEY,
     ID_Pago INT,
     Metodo_Pago VARCHAR(50),
