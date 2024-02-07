@@ -7,4 +7,4 @@ CREATE TABLE Estudiantes (
     Fecha_Nacimiento DATE,
     Curso_Actual VARCHAR(10)
 );
-
+// este es un mesaje de prueba
