@@ -1,0 +1,19 @@
+	CREATE TABLE Detalles_Pago (
+    ID_Detalle_Pago INT PRIMARY KEY,
+    ID_Pago INT,
+    Metodo_Pago VARCHAR(50),
+    
+    Imagen VARCHAR(255),
+    Fecha_Pago DATE,
+    Cuota INT,
+    
+    Cantidad INT,
+    Descuentos DECIMAL(10, 2),
+    Total DECIMAL(10, 2),
+    Fecha_Documento DATE,
+    Comprobante VARCHAR(50),
+    Entidad_Financiera VARCHAR(100),
+    Numero_Operacion VARCHAR(50),
+    Observacion VARCHAR(255),
+    FOREIGN KEY (ID_Pago) REFERENCES Pagos(ID_Pago)
+);
