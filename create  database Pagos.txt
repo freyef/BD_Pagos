@@ -22,3 +22,10 @@ CREATE TABLE Cursos (
 ID_Curso int PRIMARY KEY,
 Nombre_Curso Varchar(50)
 );
+
+CREATE TABLE PersonalAdministrativo (
+ID_Personal INT PRIMARY KEY,
+Nombre VARCHAR(50),
+Apellido VARCHAR(50),
+Cargo VARCHAR (50)
+);
