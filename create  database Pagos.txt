@@ -17,3 +17,8 @@ Monto DECIMAL(10, 2),
 Concepto VARCHAR(50),
 FOREIGN KEY (ID_Estudiante) REFERENCES Estudiantes (ID_Estudiante)
 );
+
+CREATE TABLE Cursos (
+ID_Curso int PRIMARY KEY,
+Nombre_Curso Varchar(50)
+);
